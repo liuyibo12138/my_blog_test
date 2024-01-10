@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>我的第一个博客</title>
-      <link href="/2024/01/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2024/01/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+      <title>网站启动教程</title>
+      <link href="/2024/01/10/%E7%BD%91%E7%AB%99%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2024/01/10/%E7%BD%91%E7%AB%99%E4%BB%8B%E7%BB%8D/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>源码放在了我的github账号里，仓库名为：web_test，为什么只是一个test呢，因为我还没部署到服务器上，这个静态网站虽然能更改内容，但是需要用git来操作，比较麻烦，等部署到服务器上再搞一个正式的仓库。</p><p>下面是启动该仓库的流程</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="创建一个文件夹，用于保存hexo文件"><a href="#创建一个文件夹，用于保存hexo文件" class="headerlink" title="创建一个文件夹，用于保存hexo文件"></a>创建一个文件夹，用于保存hexo文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;命名你的文件&quot;</span><br></pre></td></tr></table></figure><h3 id="使用git安装插件"><a href="#使用git安装插件" class="headerlink" title="使用git安装插件"></a>使用git安装插件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure><h3 id="启动hexo-服务"><a href="#启动hexo-服务" class="headerlink" title="启动hexo 服务"></a>启动hexo 服务</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server 或 $ hexo s</span><br></pre></td></tr></table></figure><h3 id="此时可以打开localhost：4000来查看你的hexo"><a href="#此时可以打开localhost：4000来查看你的hexo" class="headerlink" title="此时可以打开localhost：4000来查看你的hexo"></a>此时可以打开localhost：4000来查看你的hexo</h3><h3 id="部署到git上"><a href="#部署到git上" class="headerlink" title="部署到git上"></a>部署到git上</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy 或 $ hexo d</span><br></pre></td></tr></table></figure><p>更多内容: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
@@ -17,11 +17,24 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2024/01/09/hello-world/"/>
-      <url>/2024/01/09/hello-world/</url>
+      <title>我的第一个博客</title>
+      <link href="/2024/01/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2024/01/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>这篇博客用于测试，以后有时间在写</p><h4 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h4><p><img src="/../img/%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87.webp"></p><p><img src="/../img/%E6%A0%87%E7%AD%BE%E5%9B%BE%E7%89%87.webp"></p><h4 id="表格测试"><a href="#表格测试" class="headerlink" title="表格测试"></a>表格测试</h4><table><thead><tr><th>Test</th><th>test1</th><th>测试</th></tr></thead><tbody><tr><td>0</td><td>！@#￥%……&amp;</td><td>*（）——+</td></tr><tr><td>1</td><td></td><td></td></tr><tr><td>2</td><td></td><td></td></tr></tbody></table><blockquote><p>引用名人名句测试</p><p>​                            —–tes</p></blockquote><h4 id="代码块测试"><a href="#代码块测试" class="headerlink" title="代码块测试"></a>代码块测试</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>（“hello world”）</span><br></pre></td></tr></table></figure><h4 id="表情测试"><a href="#表情测试" class="headerlink" title="表情测试"></a>表情测试</h4><p>😂🤣❤😍😒👌😘🤷‍♂️👍😁👏🌹🎉🎂🙌🤦‍♀️🎶😢💖😜💋🤳🐱‍👤🐱‍🏍✨😃👀🐱‍🚀✔🐱‍👓🐱‍🐉🐱‍💻😆🤔🤢🎁ヾ(≧▽≦*)oφ(<em>￣0￣)q(≧▽≦q)ψ(｀∇´)ψq(≧▽≦q)（￣︶￣）↗　<em>^____^</em>[]<del>(￣▽￣)</del></em>&lt;(￣︶￣)↗[GO!]φ(゜▽゜*)♪φ(゜▽゜*)♪O(∩_∩)O(✿◡‿◡)(✿◡‿◡)&#96;(<em>&gt;﹏&lt;</em>)′℃¥£′㎜㏎㏎㏄¤₠㏕㎎㎝″₩$℉°€¢㎡㎞₱₭₭⇤⇧▮▬ㄒㄖㄕㄆㄠㄠ</p><h4 id="链接测试"><a href="#链接测试" class="headerlink" title="链接测试"></a>链接测试</h4><p><a href="https://baidu.com/">百度 </a>  </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于网站</title>
+      <link href="/2024/01/10/%E5%85%B3%E4%BA%8E%E7%BD%91%E7%AB%99/"/>
+      <url>/2024/01/10/%E5%85%B3%E4%BA%8E%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<p>本网站采用Hexo + git + buffterfly搭建，部署在github上，本质是一个静态网站。</p>]]></content>
       
       
       
